@@ -21,3 +21,18 @@ that are needed in a typical web application:
 * Multiple users, managed via a third party auth provider
 * File attachments
 * Reminders (mostly so that recurring background jobs a thing)
+
+## The Rules
+
+If there's a recommended path for doing something in a given framework, I'll take that
+path. If a framework wants me to do all the UI as a Javascript SPA in React, I'll do that.
+If it wants me to generate HTML server side, that's how it'll be done. Where there isn't
+a recommended path I'll try to use whatever seems to be the most highly recommended library
+for a given purpose. If that doesn't work, I'll just do whatever seems best.
+
+## Rating Frameworks
+
+Rating is entirely subjective, but I'll try to write up some notes of how I'm finding each
+framework as a work through using it, and a summary of how I found it afterwards. Keep in
+mind that my background is largely one of startups and design agencies, so I'm biased towards
+things that let me get lots done with minimal effort.
