@@ -30,6 +30,11 @@ If it wants me to generate HTML server side, that's how it'll be done. Where the
 a recommended path I'll try to use whatever seems to be the most highly recommended library
 for a given purpose. If that doesn't work, I'll just do whatever seems best.
 
+The exception to this rule is Docker. Regardless of the recommended path for a framework, the
+first thing I'm going to do is make it work under Docker, and configure it for VS Code remote
+containers (aka Codespaces), because there's no way I'm installing every stack this project
+is going to require directly on my laptop.
+
 ## Rating Frameworks
 
 Rating is entirely subjective, but I'll try to write up some notes of how I'm finding each
